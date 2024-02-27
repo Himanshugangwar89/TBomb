@@ -16,9 +16,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-     permissions:
-
-      contents: write
     steps:
     - name: Display Run Parameters
       run: |
